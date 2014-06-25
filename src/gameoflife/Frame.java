@@ -29,7 +29,7 @@ public class Frame extends Canvas
     {
         runGame = true;
         isPause = true;
-        frame = new JFrame("Ian's Game of Life");
+        frame = new JFrame("Conway's Game of Life by Twiztedcyph");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(new Dimension(800, 600));
 
