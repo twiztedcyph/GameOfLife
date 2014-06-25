@@ -17,9 +17,9 @@ import javax.swing.JPanel;
 public class Frame extends Canvas
 {
 
-    private BufferStrategy bs;
-    private JFrame frame;
-    private JPanel panel;
+    private final BufferStrategy bs;
+    private final JFrame frame;
+    private final JPanel panel;
     private int fps = 0, avgFps = 0;
     private long now;
     private boolean runGame, isPause;
